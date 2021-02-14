@@ -12,3 +12,12 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+cd ~/work/OpenWrt_Newifi_D2_firmware/OpenWrt_Newifi_D2_firmware/openwrt/package/lean &&
+rm -rf luci-theme-argon && 
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git &&
+cd ../.. &&
+cd ./feeds/luci/collections/luci &&
+rm -rf Makefile &&
+wget https://raw.githubusercontent.com/GreyFlorence/OpenWrt_Newifi_D2_firmware/main/Makefile &&
+chmod 777 Makefile &&
+cd ../../../..
