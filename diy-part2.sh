@@ -12,12 +12,13 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-cd ~/work/GreyFlorence-OpenWrt_PHICOMM_PSG1280_K1_firmware/GreyFlorence-OpenWrt_PHICOMM_PSG1280_K1_firmware/openwrt/package/lean &&
-rm -rf luci-theme-argon && 
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git &&
-cd ../.. &&
-cd ./feeds/luci/collections/luci &&
-rm -rf Makefile &&
-wget https://raw.githubusercontent.com/GreyFlorence/GreyFlorence-OpenWrt_PHICOMM_PSG1280_K1_firmware/main/Makefile &&
-chmod 777 Makefile &&
-cd ../../../..
+
+#cd ~/work/GreyFlorence-OpenWrt_PHICOMM_PSG1280_K1_firmware/GreyFlorence-OpenWrt_PHICOMM_PSG1280_K1_firmware/openwrt/package/lean &&
+#rm -rf luci-theme-argon && 
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git &&
+#cd ../.. &&
+#cd ./feeds/luci/collections/luci &&
+#rm -rf Makefile &&
+#wget https://raw.githubusercontent.com/GreyFlorence/GreyFlorence-OpenWrt_PHICOMM_PSG1280_K1_firmware/main/Makefile &&
+#chmod 777 Makefile &&
+#cd ../../../..
